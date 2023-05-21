@@ -1,0 +1,36 @@
+.items-row {
+    width: 100%;
+}
+
+.navbar-brand, .nav-item a:hover, .custom-toggler, .resume-btn {
+    color: #ff5400;
+}
+
+.navbar-brand:hover, .resume-btn:hover {
+    color: #f4a261;
+}
+
+.nav-item a {
+    color: #48bbf8;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 24px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 84, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.custom-toggler.navbar-toggler {
+    border-color: #ff5400;
+}
+
+.resume-btn {
+    border-color: #ff5400;
+    margin: 0px 10px;
+}
+
+.resume-btn:hover {
+    color: #48bbf8;
+    border-color: #48bbf8;
+}
