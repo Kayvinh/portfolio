@@ -16,7 +16,7 @@ function Navigation () {
 
   return (
     <div className="Navigation">
-      <Navbar expand="sm">
+      <Navbar expand="md">
         <NavbarBrand href="/" className="me-auto">
           <IoLogoWebComponent size={40} />
         </NavbarBrand>
@@ -34,9 +34,10 @@ function Navigation () {
             </NavItem>
           </Nav>
         </Collapse>
-        <Button className="resume-btn" outline>
+        {/* <Button className="resume-btn" outline>
           Resume
-        </Button>
+        </Button> */}
+        <a className="btn btn-border-1" href="/">Resume</a>
       </Navbar>
     </div>
   );

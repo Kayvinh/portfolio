@@ -2,19 +2,24 @@
     width: 100%;
 }
 
-.navbar-brand, .nav-item a:hover, .custom-toggler, .resume-btn {
+.navbar-brand {
+    margin: 16px;
+}
+
+.navbar-brand, .nav-item a:hover, .custom-toggler {
     color: #ff5400;
 }
 
-.navbar-brand:hover, .resume-btn:hover {
-    color: #f4a261;
+.navbar-brand:hover {
+    color: #48bbf8;
+    border-color: #48bbf8;
 }
 
 .nav-item a {
     color: #48bbf8;
     text-decoration: none;
     margin: 0px 10px;
-    font-size: 24px;
+    font-size: 2vh;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -25,12 +30,68 @@
     border-color: #ff5400;
 }
 
-.resume-btn {
-    border-color: #ff5400;
-    margin: 0px 10px;
+
+
+.btn {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 27px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #ff5400;
+    background: #011520;
+    border: 3px solid #ff5400;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
 }
 
-.resume-btn:hover {
+.btn.btn-border-1::after,
+.btn.btn-border-1::before {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    visibility: hidden;
+}
+
+.btn.btn-border-1::after {
+    bottom: -3px;
+    right: -3px;
+    border-left: 3px solid #48bbf8;
+    border-bottom: 3px solid #48bbf8;
+    transition: width .1s ease .1s, height .1s ease, visibility 0s .2s;
+}
+
+.btn.btn-border-1::before {
+    top: -3px;
+    left: -3px;
+    border-top: 3px solid #48bbf8;
+    border-right: 3px solid #48bbf8;
+    transition: width .1s ease .3s, height .1s ease .2s, visibility 0s .4s;
+}
+
+.btn.btn-border-1:hover {
+    animation: pulse 1s ease-out .4s;
     color: #48bbf8;
-    border-color: #48bbf8;
+}
+
+.btn.btn-border-1:hover::after,
+.btn.btn-border-1:hover::before {
+    width: calc(100% + 3px);
+    height: calc(100% + 3px);
+    visibility: visible;
+    transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+}
+
+.btn.btn-border-1:hover::after {
+    transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+}
+
+.btn.btn-border-1:hover::before {
+    transition: width .1s ease, height .1s ease .1s;
 }

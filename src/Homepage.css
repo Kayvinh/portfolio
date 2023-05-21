@@ -1,0 +1,31 @@
+.Homepage {
+    margin: 20px;
+    margin-top: 6rem;
+    margin-left: 5rem;
+}
+
+.h1 {
+    font-size: 4.5vw;
+}
+
+.h6 {
+    margin-top: 2rem;
+    font-size: 2vw;
+}
+
+.Homepage p, .span-row-1 {
+    color: white;
+}
+
+.span-row-2 {
+    color: #48bbf8;
+}
+
+.span-row-3 {
+    color: #ff5400;
+}
+
+.skills-icons * {
+    margin-top: 2rem;
+    margin-right: 5px;
+}
