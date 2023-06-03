@@ -6,11 +6,11 @@
     margin: 16px;
 }
 
-.navbar-brand, .nav-item a:hover, .custom-toggler {
+.navbar-brand a, .nav-item a:hover, .custom-toggler {
     color: #ff5400;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover a {
     color: #48bbf8;
     border-color: #48bbf8;
 }

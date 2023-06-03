@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
-import { Nav, Navbar, NavItem, NavbarBrand, NavbarToggler, Collapse, Button } from 'reactstrap';
+import { NavLink, Link } from "react-router-dom";
+import { Nav, Navbar, NavItem, NavbarBrand, NavbarToggler, Collapse } from 'reactstrap';
 import { IoLogoWebComponent } from 'react-icons/io5';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,8 +17,10 @@ function Navigation () {
   return (
     <div className="Navigation">
       <Navbar expand="md">
-        <NavbarBrand href="/" className="me-auto">
-          <IoLogoWebComponent size={40} />
+        <NavbarBrand className="me-auto">
+          <Link to="/" >
+            <IoLogoWebComponent size={40} />
+          </Link>
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="custom-toggler" />
         <Collapse isOpen={!collapsed} navbar>
@@ -37,6 +39,7 @@ function Navigation () {
         {/* <Button className="resume-btn" outline>
           Resume
         </Button> */}
+        {/* TODO: Link to resume, make it open a new tab */}
         <a className="btn btn-border-1" href="/">Resume</a>
       </Navbar>
     </div>

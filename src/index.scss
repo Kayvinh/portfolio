@@ -12,6 +12,10 @@ h1, p{
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 
+.container {
+  max-width: 70%;  //This will make container to take screen width
+}
+
 
 .circle {
   width: 400px;
