@@ -12,6 +12,10 @@
     color: #48bbf8;
 }
 
+.About span {
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
 .About img {
     height: 500px;
     border-radius: 80%;
@@ -20,15 +24,3 @@
 .about-details{
     margin: 1rem;
 }
-
-/* .about-details {
-    display: flex;
-    width: 100%;
-    max-width: 60%;
-    margin: 0 auto;
-    justify-content: center;
-} */
-
-/* .about-details {
-    color: white;
-} */
