@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import './App.css';
 import Navigation from "./Navigation";
 import RoutesList from "./RoutesList";
-import Homepage from "./Homepage"
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <Navigation/>
         <RoutesList/>
       </BrowserRouter>
+      <Footer></Footer>
     </div>
   );
 }

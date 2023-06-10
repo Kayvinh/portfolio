@@ -30,7 +30,7 @@ const About = () => {
             </div>
           </Col>
           <Col sm="4" xs="8">
-            <img src="./self.jpeg" alt="Kevin"></img>
+            <img src="./self.jpeg" alt="Kevin" className="self"></img>
           </Col>
         </Row>
       </Container>

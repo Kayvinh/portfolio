@@ -22,7 +22,7 @@ const Projects = () => {
             </a>
           </div>
           <div className="projects-details text-center">
-            <div><b>Project: Jobly</b></div>
+            <div><b>Jobly</b></div>
             <div>Job listing single page React application for viewing and submitting job applications.</div>
           </div>
         </Row>
@@ -39,8 +39,8 @@ const Projects = () => {
             </a>
           </div>
           <div className="projects-details text-center">
-            <div><b>Project: Warbler</b></div>
-            <div>Replica of a social media site, where users can follow other users and post/like messages.</div>
+            <div><b>Warbler</b></div>
+            <div className="last-detail">Replica of a social media site, where users can follow other users and post/like messages.</div>
           </div>
         </Row>
       </Container>
