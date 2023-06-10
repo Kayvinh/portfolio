@@ -8,9 +8,9 @@ function Homepage() {
   return (
     <div className="Homepage">
         <Container>
-            <h1 className="h1"><span className="span-row-1">Hi,</span></h1>
-            <h1 className="h1"><span className="span-row-2">I'm Kevin Nguyen.</span></h1>
-            <h1 className="h1"><span className="span-row-3">Software Engineer.</span></h1>
+            <h2 className="h1"><span className="span-row-1">Hi,</span></h2>
+            <h2 className="h1"><span className="span-row-2">I'm Kevin Nguyen.</span></h2>
+            <h2 className="h1"><span className="span-row-3">Software Engineer.</span></h2>
             <p className="h6">I like to build things for the web!</p>
             <div className="skills-icons">
                 <FaReact style={{ color: "#48bbf8"}} size="4vw"/>

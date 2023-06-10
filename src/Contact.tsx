@@ -7,9 +7,9 @@ const Contact = () => {
     <div className='Contact'>
       <Container>
         <Row>
-          <h1 className="h1">
+          <h2 className="h1">
             <span className="contact-header">Contact me</span>
-          </h1>
+          </h2>
         </Row>
         <Row>
           <p className="d-flex justify-content-center">Whether you have a question or just want to say hi,</p>

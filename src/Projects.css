@@ -1,0 +1,33 @@
+.Projects {
+    display: flex;
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    justify-content: center;
+    color: white;
+}
+
+.Projects h2 {
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+.Projects img, .projects-details {
+    margin: 1rem;
+}
+
+figure {
+    overflow: hidden;
+}
+
+.img-wrapper figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.img-wrapper figure:hover img{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}

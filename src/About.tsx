@@ -7,9 +7,9 @@ const About = () => {
     <div className="About">
       <Container>
         <Row>
-          <h1 className="h1">
+          <h2 className="h1">
             <span className="about-header">About</span>
-          </h1>
+          </h2>
         </Row>
         <Row lg-2>
           <Col lg="8">
