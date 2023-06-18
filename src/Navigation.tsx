@@ -40,7 +40,14 @@ function Navigation () {
           Resume
         </Button> */}
         {/* TODO: Link to resume, make it open a new tab */}
-        <a className="btn btn-border-1" href="/resume.pdf">Resume</a>
+        <a 
+          className="btn btn-border-1" 
+          href="/resume.pdf"
+          target="_blank" 
+          rel="noreferrer"
+          >
+            Resume
+        </a>
       </Navbar>
     </div>
   );
