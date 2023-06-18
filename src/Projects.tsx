@@ -1,5 +1,5 @@
 import "./Projects.css";
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row } from 'reactstrap';
 
 const Projects = () => {
   return (
